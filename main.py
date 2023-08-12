@@ -1,12 +1,7 @@
 import customtkinter
-import webbrowser
+import webbrowser as web
 
 ctk = customtkinter
-
-buttonClicked = False
-
-web = webbrowser
-
 
 def whenClicked():
     search = entry.get()
